@@ -2,7 +2,15 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="d-flex p-2 flex-column">
+    <div class="p-2">
+        <label for="arrayInput">Format [x,y,z,..]</label>
+        <input class="form-control" id="arrayInput"/>
+    </div>
+    <div class="p-2">
+        <button type="button" id="submitButton" class="btn btn-primary">Submit</button>
+    </div>
+    <div class="p-2">
+        <label id="resultLabel"></label>
+    </div>
 </div>
